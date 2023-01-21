@@ -43,11 +43,18 @@ li {
     padding-left: 10px;
 }
 
-.hero-image {
+.hero-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.hero-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
 }
 
 #hero-section {
@@ -84,6 +91,11 @@ li {
 .ticket-item {
     text-align: center;
     padding-top: 10px;
+}
+
+.ticket-item, p {
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .hvr-grow-rotate {
