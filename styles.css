@@ -16,6 +16,14 @@ li {
     list-style-type: none;
 }
 
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
 .navbar {
     min-height: 2.5rem;
     position: fixed;
@@ -63,7 +71,7 @@ li {
 }
 
 #ticket-section {
-    min-height: 800px;
+    min-height: 400px;
     width: 100%;
 }
 
@@ -81,13 +89,6 @@ li {
     padding-top: 28px;
 }
 
-.ticket-title {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
 .ticket-item {
     text-align: center;
     padding-top: 10px;
@@ -96,6 +97,11 @@ li {
 .ticket-item, p {
     text-align: center;
     padding-top: 2rem;
+}
+
+#news-section {
+    min-height: 400px;
+    width: 100%;
 }
 
 .hvr-grow-rotate {
